@@ -20,10 +20,10 @@ export function Footer() {
               Mempermudah Bisnis Anda, dengan Cara yang Transparan.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="px-4 py-2 rounded-full bg-slate-800 text-sm font-medium hover:bg-accent hover:text-white transition-colors">
+              <a href="#" rel="nofollow" aria-label="LinkedIn" className="px-4 py-2 rounded-full bg-slate-800 text-sm font-medium hover:bg-accent hover:text-white transition-colors">
                 LinkedIn
               </a>
-              <a href="#" className="px-4 py-2 rounded-full bg-slate-800 text-sm font-medium hover:bg-accent hover:text-white transition-colors">
+              <a href="#" rel="nofollow" aria-label="Instagram" className="px-4 py-2 rounded-full bg-slate-800 text-sm font-medium hover:bg-accent hover:text-white transition-colors">
                 Instagram
               </a>
             </div>
@@ -35,6 +35,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li><a href="#tentang" className="hover:text-accent transition-colors">Tentang Kami</a></li>
               <li><a href="#layanan" className="hover:text-accent transition-colors">Layanan</a></li>
+              <li><a href="#proses" className="hover:text-accent transition-colors">Proses</a></li>
               <li><a href="#proyek" className="hover:text-accent transition-colors">Portofolio Proyek</a></li>
               <li><a href="#faq" className="hover:text-accent transition-colors">FAQ</a></li>
             </ul>
@@ -46,7 +47,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-accent shrink-0 mt-1" />
-                <a href="mailto:hello@gorizon.com" className="hover:text-accent transition-colors">hello@gorizon.com</a>
+                <a href="mailto:hello@gorizon.web.id" className="hover:text-accent transition-colors">hello@gorizon.web.id</a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent shrink-0 mt-1" />
@@ -59,8 +60,8 @@ export function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
           <p>&copy; {currentYear} Gorizon IT Consulting. All rights reserved.</p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" rel="nofollow" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" rel="nofollow" className="hover:text-white transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

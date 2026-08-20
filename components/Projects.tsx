@@ -1,4 +1,5 @@
 import { ExternalLink, LayoutTemplate } from 'lucide-react';
+import Image from 'next/image';
 
 export function Projects() {
   const projects = [
@@ -8,7 +9,7 @@ export function Projects() {
       description: "Pengembangan sistem manajemen inventaris yang mengintegrasikan berbagai cabang toko dengan pelacakan real-time.",
       technologies: ["React", "Node.js", "PostgreSQL"],
       impact: "Meningkatkan efisiensi proses 30%",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+      image: "/projects/project-1.jpg",
       link: "#"
     },
     {
@@ -17,7 +18,7 @@ export function Projects() {
       description: "Audit menyeluruh terhadap infrastruktur IT startup fintech, mengidentifikasi celah keamanan dan bottleneck performa.",
       technologies: ["AWS", "Kubernetes", "Security Audit"],
       impact: "Mengurangi downtime server hingga 99%",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+      image: "/projects/project-2.jpg",
       link: "#"
     },
     {
@@ -26,7 +27,7 @@ export function Projects() {
       description: "Membangun platform pelatihan karyawan berbasis web dengan fitur analitik pembelajaran yang mendalam.",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
       impact: "Meningkatkan partisipasi karyawan 50%",
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop",
+      image: "/projects/project-3.jpg",
       link: "#"
     }
   ];
@@ -50,9 +51,12 @@ export function Projects() {
               className="group bg-white rounded-2xl overflow-hidden border border-slate-200 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300 flex flex-col"
             >
               <div className="aspect-video relative overflow-hidden bg-slate-100">
-                <img 
+                <Image 
                   src={project.image} 
-                  alt={`Screenshot ${project.title}`} 
+                  alt={`Tangkapan layar dari hasil proyek: ${project.title}`} 
+                  loading="lazy"
+                  width={800}
+                  height={450}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-primary">

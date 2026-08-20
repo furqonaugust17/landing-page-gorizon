@@ -17,6 +17,18 @@ export function FAQ() {
     {
       question: "Bagaimana cara memulai konsultasi dengan Gorizon?",
       answer: "Calon klien dapat menghubungi kami lewat WhatsApp atau Form Email yang tersedia di halaman ini untuk menjadwalkan sesi konsultasi awal secara gratis."
+    },
+    {
+      question: "Apa perbedaan Gorizon dengan vendor IT lainnya?",
+      answer: "Kami berfokus pada transparansi total. Proses kerja, timeline, dan budget disampaikan secara jujur. Kami bertindak sebagai mitra konsultasi, bukan sekadar pelaksana tugas."
+    },
+    {
+      question: "Apakah Gorizon bisa menangani proyek skala enterprise?",
+      answer: "Ya, kami bisa. Namun fokus utama kami saat ini adalah membantu UMKM hingga bisnis menengah dan startup tahap awal untuk memiliki pondasi digital yang kuat."
+    },
+    {
+      question: "Teknologi apa saja yang digunakan Gorizon?",
+      answer: "Kami menggunakan stack teknologi modern dan reliable seperti React, Next.js, Node.js, TypeScript, Tailwind CSS, PostgreSQL, dan layanan Cloud (AWS/GCP/Vercel) sesuai dengan kebutuhan proyek."
     }
   ];
 

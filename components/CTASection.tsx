@@ -30,7 +30,7 @@ export function CTASection() {
             
             {/* Email Button */}
             <a 
-              href="mailto:hello@gorizon.com" // Placeholder
+              href="mailto:hello@gorizon.web.id" // Placeholder
               className="w-full sm:w-auto flex items-center justify-center gap-3 bg-white text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-100 transition-all hover:shadow-lg hover:shadow-white/10 hover:-translate-y-1"
             >
               <Send className="w-5 h-5 text-accent" />

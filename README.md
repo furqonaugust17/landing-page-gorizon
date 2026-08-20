@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+# Gorizon Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Proyek *landing page* untuk Gorizon, sebuah konsultan IT yang berfokus pada Software/Web Development dan IT Strategy Consulting.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Framework**: Next.js 14+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Fonts**: `next/font` (Inter & Poppins)
+- **Deployment**: Vercel (atau static hosting apa pun via `output: export`)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fitur Unggulan
+- **SSG (Static Site Generation)**: Performa super cepat dan aman.
+- **Native SEO**: Metadata lengkap (Open Graph, Twitter, Canonical).
+- **JSON-LD Schema**: Schema.org data untuk *Rich Snippets* di Google.
+- **GEO (Generative Engine Optimization)**: Memiliki `llms.txt` untuk memastikan AI *crawlers* merangkum situs tanpa halusinasi.
 
-## React Compiler
+## Scripts
+- `npm run dev` - Menjalankan development server di `http://localhost:3000`
+- `npm run build` - Membuat *production build* (statis di folder `/out`)
+- `npm run start` - Menjalankan production server
+- `npm run lint` - Menjalankan ESLint
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Lisensi
+Hak cipta © Gorizon IT Consulting.

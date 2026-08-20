@@ -1,4 +1,7 @@
+"use client";
+
 import { Compass, Menu, X } from 'lucide-react';
+
 import { useState } from 'react';
 
 export function Header() {
@@ -7,6 +10,7 @@ export function Header() {
   const navLinks = [
     { name: 'Tentang', href: '#tentang' },
     { name: 'Layanan', href: '#layanan' },
+    { name: 'Proses', href: '#proses' },
     { name: 'Proyek', href: '#proyek' },
     { name: 'FAQ', href: '#faq' },
   ];
@@ -46,6 +50,8 @@ export function Header() {
         <button 
           className="md:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-lg transition-colors"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          aria-label={isMobileMenuOpen ? "Tutup menu navigasi" : "Buka menu navigasi"}
+          aria-expanded={isMobileMenuOpen}
         >
           {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
