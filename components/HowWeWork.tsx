@@ -5,7 +5,7 @@ export function HowWeWork() {
     {
       icon: <MessageSquare className="w-6 h-6 text-primary" />,
       title: "1. Konsultasi Awal",
-      description: "Diskusi gratis untuk memahami kebutuhan bisnis dan masalah yang ingin diselesaikan."
+      description: "Diskusi awal untuk memahami kebutuhan bisnis dan masalah yang ingin diselesaikan."
     },
     {
       icon: <FileSearch className="w-6 h-6 text-primary" />,

@@ -4,11 +4,11 @@ export function FAQ() {
   const faqs = [
     {
       question: "Apa itu Gorizon?",
-      answer: "Gorizon adalah konsultan IT yang fokus pada software/web development dan IT strategy consulting, dengan pendekatan yang transparan di setiap tahap kerja."
+      answer: "Gorizon adalah mitra software/web development yang membantu bisnis membangun website, aplikasi web, hingga sistem custom, dengan pendekatan yang transparan di setiap tahap kerja. Gorizon juga menyediakan IT strategy consulting sebagai layanan pendukung."
     },
     {
       question: "Layanan apa saja yang ditawarkan Gorizon?",
-      answer: "Kami menawarkan layanan Software & Web Development (pembuatan aplikasi, website custom) serta IT Strategy & Consulting (audit, rekomendasi teknologi, roadmap). Selengkapnya dapat dilihat di bagian Layanan."
+      answer: "Fokus utama Gorizon adalah Software/Web Development (website, aplikasi web, sistem custom). Sebagai pelengkap, Gorizon juga menyediakan IT Strategy & Consulting bagi klien yang butuh arahan teknologi sebelum atau selama proses pengembangan."
     },
     {
       question: "Berapa lama proses pengerjaan proyek?",
@@ -16,7 +16,7 @@ export function FAQ() {
     },
     {
       question: "Bagaimana cara memulai konsultasi dengan Gorizon?",
-      answer: "Calon klien dapat menghubungi kami lewat WhatsApp atau Form Email yang tersedia di halaman ini untuk menjadwalkan sesi konsultasi awal secara gratis."
+      answer: "Calon klien dapat menghubungi kami lewat WhatsApp atau Form Email yang tersedia di halaman ini untuk menjadwalkan sesi diskusi awal."
     },
     {
       question: "Apa perbedaan Gorizon dengan vendor IT lainnya?",

@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 const url = "https://gorizon.web.id";
-const title = "Gorizon — Konsultasi IT & Software Development Tepercaya";
-const description = "Konsultan IT terpercaya untuk Software/Web Development dan IT Strategy. Mempermudah Bisnis Anda, dengan Cara yang Transparan.";
+const title = "Gorizon — Software & Web Development Tepercaya untuk Bisnis Anda";
+const description = "Mitra Software & Web Development terpercaya untuk bisnis Anda. Dari website, aplikasi web, hingga sistem custom. Mempermudah Bisnis Anda, dengan Cara yang Transparan.";
 
 export const metadata: Metadata = {
   title,
@@ -65,24 +65,20 @@ export default function RootLayout({
     description: description,
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+62-800-0000-0000",
+      telephone: "+62-851-5740-2053",
       contactType: "customer service",
-      email: "hello@gorizon.web.id",
+      email: "contact@gorizon.web.id",
     },
-    sameAs: [
-      "https://linkedin.com/company/gorizon",
-      "https://instagram.com/gorizon",
-    ],
   };
 
   const schemaProfessionalService = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Gorizon IT Consulting",
+    name: "Gorizon Software & Web Development",
     image: `${url}/og-image.jpg`,
     description: description,
-    telephone: "+62-800-0000-0000",
-    email: "hello@gorizon.web.id",
+    telephone: "+62-851-5740-2053",
+    email: "contact@gorizon.web.id",
     url: url,
     address: {
       "@type": "PostalAddress",
@@ -145,7 +141,7 @@ export default function RootLayout({
         name: "Bagaimana cara memulai konsultasi dengan Gorizon?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Calon klien dapat menghubungi kami lewat WhatsApp atau Form Email yang tersedia di halaman ini untuk menjadwalkan sesi konsultasi awal secara gratis.",
+          text: "Calon klien dapat menghubungi kami lewat WhatsApp atau Form Email yang tersedia di halaman ini untuk menjadwalkan sesi diskusi awal.",
         },
       },
       {
@@ -178,7 +174,6 @@ export default function RootLayout({
   return (
     <html lang="id" className={`${inter.variable} ${poppins.variable}`}>
       <head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="describedby" href="/llms.txt" />
         <script
           type="application/ld+json"

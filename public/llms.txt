@@ -1,12 +1,12 @@
 # Gorizon
 
-> Gorizon adalah konsultan IT di Indonesia yang fokus pada Software/Web Development dan IT Strategy & Consulting, dengan pendekatan yang transparan di setiap tahap kerja.
+> Gorizon adalah mitra software/web development di Indonesia yang fokus pada pembuatan website, aplikasi web, dan sistem custom, dengan pendekatan yang transparan di setiap tahap kerja. Gorizon juga menyediakan IT strategy consulting sebagai layanan pendukung.
 
 Gorizon melayani bisnis UMKM hingga menengah dan startup tahap awal yang membutuhkan solusi digital atau strategi IT. Didirikan dengan prinsip transparansi, kejujuran, dan profesionalisme. Tagline: "Mempermudah Bisnis Anda, dengan Cara yang Transparan."
 
 Informasi penting:
 - Gorizon berbasis di Jakarta, Indonesia
-- Melayani konsultasi gratis untuk sesi awal
+- Menyediakan sesi diskusi awal untuk memahami kebutuhan klien
 - Proses kerja: Konsultasi -> Analisis & Proposal -> Pengerjaan -> Delivery & Support
 
 ## Layanan
@@ -25,4 +25,4 @@ Informasi penting:
 
 ## Kontak
 
-- [Hubungi Kami](https://gorizon.web.id/#kontak): WhatsApp dan Email untuk menjadwalkan konsultasi gratis
+- [Hubungi Kami](https://gorizon.web.id/#kontak): WhatsApp dan Email untuk menjadwalkan diskusi awal

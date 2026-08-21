@@ -13,13 +13,13 @@ export function CTASection() {
             Siap Membangun Solusi Digital Anda?
           </h2>
           <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Jangan ragu untuk berdiskusi dengan kami. Konsultasikan kebutuhan IT bisnis Anda sekarang secara gratis.
+            Ceritakan kebutuhan bisnis Anda, dan kami akan bantu carikan solusinya.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             {/* WhatsApp Button */}
-            <a 
-              href="https://wa.me/6280000000000" // Placeholder
+            <a
+              href="https://wa.me/6285157402053" // Placeholder
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#20bd5a] transition-all hover:shadow-lg hover:shadow-[#25D366]/20 hover:-translate-y-1"
@@ -27,10 +27,10 @@ export function CTASection() {
               <Phone className="w-5 h-5" />
               Hubungi via WhatsApp
             </a>
-            
+
             {/* Email Button */}
-            <a 
-              href="mailto:hello@gorizon.web.id" // Placeholder
+            <a
+              href="mailto:contact@gorizon.web.id" // Placeholder
               className="w-full sm:w-auto flex items-center justify-center gap-3 bg-white text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-100 transition-all hover:shadow-lg hover:shadow-white/10 hover:-translate-y-1"
             >
               <Send className="w-5 h-5 text-accent" />

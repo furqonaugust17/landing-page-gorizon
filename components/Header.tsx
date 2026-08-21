@@ -1,6 +1,7 @@
 "use client";
 
-import { Compass, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 import { useState } from 'react';
 
@@ -19,11 +20,11 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
       <div className="container mx-auto px-4 md:px-8 h-20 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 text-primary hover:opacity-90 transition-opacity">
-          <Compass className="w-8 h-8 text-accent" />
+        <a href="#" className="flex items-center gap-3 text-primary hover:opacity-90 transition-opacity">
+          <Image src="/logo.webp" alt="Gorizon Logo" width={40} height={40} className="rounded-full shadow-sm" />
           <div className="flex flex-col">
             <span className="font-heading font-bold text-xl leading-none">Gorizon</span>
-            <span className="text-[0.65rem] font-medium text-slate-500 uppercase tracking-wider mt-1">IT Consulting</span>
+            <span className="text-[0.65rem] font-medium text-slate-500 uppercase tracking-wider mt-1">Software & Web Development</span>
           </div>
         </a>
 
@@ -42,7 +43,7 @@ export function Header() {
             href="#kontak" 
             className="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all hover:shadow-lg hover:shadow-primary/20"
           >
-            Konsultasi Gratis
+            Hubungi Kami
           </a>
         </nav>
 
@@ -75,7 +76,7 @@ export function Header() {
             onClick={() => setIsMobileMenuOpen(false)}
             className="bg-primary text-white text-center px-5 py-3 rounded-xl font-medium mt-2"
           >
-            Konsultasi Gratis
+            Hubungi Kami
           </a>
         </nav>
       )}

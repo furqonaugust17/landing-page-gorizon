@@ -4,31 +4,31 @@ import Image from 'next/image';
 export function Projects() {
   const projects = [
     {
-      title: "Sistem Inventory — [Nama Klien]",
+      title: "Sistem Informasi Gadai — Pusat Gadai Padang",
       category: "Web Development",
-      description: "Pengembangan sistem manajemen inventaris yang mengintegrasikan berbagai cabang toko dengan pelacakan real-time.",
-      technologies: ["React", "Node.js", "PostgreSQL"],
-      impact: "Meningkatkan efisiensi proses 30%",
-      image: "/projects/project-1.jpg",
-      link: "#"
+      description: "Sistem manajemen pegadaian berbasis web untuk mencatat transaksi gadai, menghasilkan laporan, dan mengirim notifikasi otomatis ke nasabah. Dibangun untuk klien bisnis nyata yang membutuhkan pencatatan transaksi yang rapi dan proses pelaporan yang lebih efisien.",
+      technologies: ["CodeIgniter 4", "Bootstrap 5", "Node.js", "MySQL"],
+      impact: "Mempermudah pencatatan transaksi gadai dan pelaporan bisnis secara digital",
+      image: "https://images.furqonaugust.site/projects/42b95f5d-b660-480c-b995-77c12eabfa6a.png",
+      link: "https://pusatgadaipadang.com/"
     },
     {
-      title: "Audit Keamanan & Performa IT",
-      category: "IT Consulting",
-      description: "Audit menyeluruh terhadap infrastruktur IT startup fintech, mengidentifikasi celah keamanan dan bottleneck performa.",
-      technologies: ["AWS", "Kubernetes", "Security Audit"],
-      impact: "Mengurangi downtime server hingga 99%",
-      image: "/projects/project-2.jpg",
-      link: "#"
+      title: "TEFA-26 — Teaching Factory Management System",
+      category: "Web Development",
+      description: "Sistem manajemen Teaching Factory untuk SMKN 2 Batusangkar, mencakup pengelolaan produksi, transaksi penjualan, inventori, dan pelaporan, dengan dukungan multi-role (admin, guru, siswa, manajemen sekolah). Dikembangkan lintas platform web dan mobile dengan arsitektur yang dirancang untuk skala dan integrasi API.",
+      technologies: ["Next.js 14", "Hono", "Cloudflare Workers", "Flutter"],
+      impact: "Mendukung pengelolaan end-to-end produksi, penjualan, dan inventori sekolah (web & mobile)",
+      image: "https://images.furqonaugust.site/projects/b59aa945-aab8-4a2d-9105-63582f4dc70f.png",
+      link: "https://tefa.smkn2batusangkar.sch.id/"
     },
     {
-      title: "Platform E-Learning Corporate",
+      title: "Yokke Helpdesk — Sistem Ticketing EDC",
       category: "Web Development",
-      description: "Membangun platform pelatihan karyawan berbasis web dengan fitur analitik pembelajaran yang mendalam.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-      impact: "Meningkatkan partisipasi karyawan 50%",
-      image: "/projects/project-3.jpg",
-      link: "#"
+      description: "Sistem ticketing berbasis web untuk menangani laporan masalah perangkat EDC (Electronic Data Capture), dilengkapi fitur notifikasi real-time agar tim terkait bisa merespons laporan lebih cepat.",
+      technologies: ["CodeIgniter 4", "JavaScript", "Bootstrap"],
+      impact: "Mempercepat respons penanganan laporan masalah perangkat EDC",
+      image: "https://images.furqonaugust.site/projects/1776840026108-1l31x8.png",
+      link: ""
     }
   ];
 
@@ -46,14 +46,14 @@ export function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="group bg-white rounded-2xl overflow-hidden border border-slate-200 hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300 flex flex-col"
             >
               <div className="aspect-video relative overflow-hidden bg-slate-100">
-                <Image 
-                  src={project.image} 
-                  alt={`Tangkapan layar dari hasil proyek: ${project.title}`} 
+                <Image
+                  src={project.image}
+                  alt={`Tangkapan layar dari hasil proyek: ${project.title}`}
                   loading="lazy"
                   width={800}
                   height={450}
@@ -63,16 +63,16 @@ export function Projects() {
                   {project.category}
                 </div>
               </div>
-              
+
               <div className="p-6 md:p-8 flex-1 flex flex-col">
                 <h3 className="text-xl font-heading font-bold text-primary mb-3">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-1">
                   {project.description}
                 </p>
-                
+
                 <div className="mb-6">
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech, i) => (
@@ -89,7 +89,7 @@ export function Projects() {
                       {project.impact}
                     </span>
                     {project.link && (
-                      <a 
+                      <a
                         href={project.link}
                         className="p-2 text-slate-400 hover:text-primary hover:bg-slate-50 rounded-lg transition-colors"
                         aria-label={`Lihat detail ${project.title}`}
@@ -103,7 +103,7 @@ export function Projects() {
             </div>
           ))}
         </div>
-        
+
         {/* Placeholder for when no projects exist / structure is used as template */}
         {projects.length === 0 && (
           <div className="text-center py-20 bg-secondary rounded-3xl border border-dashed border-slate-300">

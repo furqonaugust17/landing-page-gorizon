@@ -33,10 +33,10 @@ export function About() {
           </h2>
           <div className="text-lg text-slate-600 space-y-4 leading-relaxed">
             <p>
-              <strong>Gorizon adalah konsultan IT</strong> yang membantu bisnis membangun solusi digital secara transparan dan tepat sasaran. Kami percaya bahwa kepercayaan dibangun dari komunikasi yang jujur dan proses kerja yang jelas di setiap tahapnya — mulai dari perencanaan, pengembangan, hingga pasca-implementasi.
+              <strong>Gorizon adalah mitra pengembangan software dan website</strong> yang membantu bisnis mewujudkan solusi digital secara transparan dan tepat sasaran. Kami percaya bahwa kepercayaan dibangun dari komunikasi yang jujur dan proses kerja yang jelas di setiap tahapnya — mulai dari perencanaan, pengembangan, hingga pasca-implementasi.
             </p>
             <p>
-              Kami mengerjakan setiap proyek dengan pendekatan yang disesuaikan kebutuhan spesifik klien kami, bukan solusi satu ukuran untuk semua.
+              Kami mengerjakan setiap proyek dengan pendekatan yang disesuaikan kebutuhan klien, bukan solusi satu ukuran untuk semua. Bagi klien yang butuh arahan lebih dulu sebelum masuk ke tahap pengembangan, kami juga menyediakan layanan IT strategy consulting sebagai pendukung.
             </p>
           </div>
         </div>
