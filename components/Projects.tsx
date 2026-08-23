@@ -29,6 +29,24 @@ export function Projects() {
       impact: "Mempercepat respons penanganan laporan masalah perangkat EDC",
       image: "https://images.furqonaugust.site/projects/1776840026108-1l31x8.png",
       link: ""
+    },
+    {
+      title: "Cantigi Rent Car — Sistem Booking Rental Kendaraan",
+      category: "Web Development",
+      description: "Sistem Pemesanan Sewa Kendaraan PT. Cantigi International Tours adalah platform web untuk memudahkan pemesanan dan pengelolaan sewa kendaraan secara online, mencakup manajemen kendaraan, pelanggan, pengemudi, pembayaran, dan pelaporan transaksi. Tujuannya adalah meningkatkan efisiensi operasional dan kenyamanan pelanggan.",
+      technologies: ["Laravel", "JavaScript", "Bootstrap"],
+      impact: "Rental kendaraan dengan booking realtime untuk meningkatkan efisiensi operasional dan kenyamanan pelanggan.",
+      image: "https://i.pinimg.com/736x/50/f6/aa/50f6aa51713bf205b24a3b983bed18e5.jpg",
+      link: "https://cantigitours.com/"
+    },
+    {
+      title: "Ethereal Kreatif — Sistem E-Commerce penjualan baju",
+      category: "Web Development",
+      description: "Ethereal Kreatif adalah aplikasi web yang membantu perusahaan memasarkan dan menjual produk pakaian secara online melalui katalog dan pemesanan langsung, sekaligus mendukung digitalisasi UMKM di Kota Padang.",
+      technologies: ["Next.js 14", "Express.js", "tailwind"],
+      impact: "Katalog interaktif dan pemesanan WhatsApp untuk memperluas pemasaran serta meningkatkan penjualan.",
+      image: "https://i.pinimg.com/736x/de/25/18/de2518b8faebbd6c82b914edfc29b704.jpg",
+      link: "https://ethereal-creative-project.vercel.app/"
     }
   ];
 
